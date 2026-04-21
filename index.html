@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dikshant Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #333;
+            font-size: 40px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #4facfe;
+            color: white;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Hello, Dikshant 👋</h1>
+    <p>Welcome to your first frontend page!</p>
+    <button onclick="changeText()">Click Me</button>
+</div>
+
+<script>
+    function changeText() {
+        document.querySelector("h1").innerText = "Dikshant, You're Awesome 🚀";
+    }
+</script>
+
+</body>
+</html>
